@@ -2,5 +2,6 @@ baseURL = ""
 languageCode = 'en-us'
 theme = 'hugo-bearblog'
 title = "a log floating in tha net"
+author = 'alt@m0nt'
 [markup.goldmark.renderer]
   unsafe = true
