@@ -1,7 +1,20 @@
-baseURL = ""
+baseURL = "https://ghostlog.space"
 languageCode = 'en-us'
 theme = 'hugo-bearblog'
 title = "a log floating in tha net"
-author = 'alt@m0nt'
-[markup.goldmark.renderer]
-  unsafe = true
+pagination.pagerSize = 10
+
+[Author]
+name = 'altamont'
+email = 'altamont@sdf.org'
+bio = 'no one special <3'
+
+[markup]
+  [markup.highlight]
+    codeFences = true # default = true
+    noClasses = false # default = true
+    lineNumbersInTable = true
+
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true # This is *necessary* for ox-hugo to work well with Hugo 0.60.0+
