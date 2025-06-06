@@ -1,12 +1,11 @@
 +++
 title = "first post"
 author = ["altmaont"]
-categories = ["words"]
 draft = false
-weight = 3001
+weight = 2001
 [menu]
   [menu.main]
-    weight = 3001
+    weight = 2001
     identifier = "first-post"
 +++
 
@@ -45,9 +44,9 @@ Content
 More content
 
 ```shell
-  echo 'Some source code content'
-  echo 'This line will be highlighted'
-  echo "This one won't"
+echo 'Some source code content'
+echo 'This line will be highlighted'
+echo "This one won't"
 ```
 
 | 1    | 2   | 3   | 4   | 5 |

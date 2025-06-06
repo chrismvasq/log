@@ -4,10 +4,16 @@ theme = 'hugo-bearblog'
 title = "a log floating in tha net"
 pagination.pagerSize = 10
 
-[Author]
-name = 'altamont'
-email = 'altamont@sdf.org'
-bio = 'no one special <3'
+[menus]
+[[menus.main]]
+  name = 'about'
+  pageRef = '_about'
+[[menus.main]]
+  name = 'blog'
+  pageRef = 'posts'
+[[menus.main]]
+  name = 'tags'
+  pageRef = 'tags'
 
 [markup]
   [markup.highlight]
