@@ -3,10 +3,6 @@ title = "first post"
 author = ["altmaont"]
 draft = false
 weight = 2001
-[menu]
-  [menu.main]
-    weight = 2001
-    identifier = "first-post"
 +++
 
 This is more of a test hit than an fullmetal jacket. I'm not there yet. Resting still. Just want to throw something up real quick though.
