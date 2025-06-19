@@ -9,3 +9,4 @@ draft = false
 +++
 
 This is a test blog. Going to practice some stuff on here. I would like to make this a bit more useful.
+quick test
